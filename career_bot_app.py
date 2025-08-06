@@ -56,7 +56,7 @@ def suggest_career(interests, skills, subject):
     if "leadership" in interests or "organization" in interests or "management" in interests:
         return "💡 Project Manager or Entrepreneur"
 
-    return "💡 Explore careers in your areas of interest — education, healthcare, business, design, tech, or more!"
+    return "💡 Explore careers in your areas of interest — Education, Healthcare, Business, Design, Tech, or More!"
 
 
 # Button
@@ -66,3 +66,4 @@ if st.button("Get Career Suggestion"):
         st.success(f"🎯 CareerBot Suggestion: {suggestion}")
     else:
         st.warning("Please fill in all the fields above.")
+
